@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marichka Giy Workout</title>
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+    <title>Марічка Гій</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
 </head>
 <body>
     <header id="intro">
@@ -79,23 +79,54 @@
         </section>
     </main>
     <footer>
-        <div id="contactus">
+        <form id="contact-form">
             <h2>Контакти:</h2>
-            <form method="POST" action="https://formspree.io/fedevych.m@gmail.com">
                 <label>Твоє Ім'я:
-                    <input type="text" name="client-name" required>
-                </label><br>
-                <label for="your-email"> Твоя пошта:
-                    <input type="email" name="your email" id="your-email" required>
-                </label><br>
-                <label>Твоє повідомлення:<br>
-                    <textarea name="your message"></textarea>
-                </label><br>
+                    <input type="text" id="name">
+                </label>
+                <br>
+                <label> Твоя пошта:
+                    <input type="email" id="email">
+                </label>
+                <br>
+                <label>Твоє повідомлення:
+                    <textarea id="feedback"></textarea>
+                </label>
+                <br>
                 <input type="submit" value="Відправити"> <input type=reset value="Скинути">
             </form>
-        </div>
+        <dialog id="thank-dialog">
+            <p>Thank you for contacting us!</p>
+        </dialog>    
+        <dialog id="error-dialog">
+            <p>Sorry, an error has occured!</p>
+        </dialog>  
+        
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+        <script src="js/feedback-form.js"></script>
     <p>Copyright MarichkaGiy</p>
-    </footer>    
+    </footer>
+    
+    
+    
+    
+    
+    
+    
+ <div id="container">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>   
+    
 </body>
 
 </html>
