@@ -45,14 +45,14 @@ nav li a:hover:not(.active) {
 }
 
 #intro {
-   background-image: url("/img/marichkagiy.jpg"); 
+   background-image: url("img/marichkagiy.jpg"); 
    background-size: cover;
    margin: 0px 0px 0px 0px;
    padding: 0px 0px 390px 0px;
 }
 
 #aboutme {
-     background-image: url("/img/backgr_weight.jpg");
+     background-image: url("img/backgr_weight.jpg");
      font-family: "PT Serif Caption", serif;
      margin: 0px;
      padding-top: 10px;
